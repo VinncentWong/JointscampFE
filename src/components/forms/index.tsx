@@ -57,6 +57,7 @@ const Forms = ({type}: FormsProps) => {
         }
         catch(err){
             if(axios.isAxiosError(err)){
+                console.log(err);
                 alert(`${err.message}, message: user not authenticated`);
                 return;
             }
