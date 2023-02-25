@@ -22,7 +22,7 @@ const Footer = () => {
                 gap='40px'>
                     <Link href="https://github.com/VinncentWong" width='5%'marginTop='50px' marginBottom='50px'><Image alt="Github" src="/github.png"></Image></Link>
                     <Link href="https://instagram.com/centwong_" width='5%'marginTop='50px' marginBottom='50px'><Image alt="Github" src="/instagram.jpg"></Image></Link>
-                    <Link href="https://github.com/VinncentWong" width='5%'marginTop='50px' marginBottom='50px'><Image alt="Github" src="/linkedin.png"></Image></Link>
+                    <Link href="https://www.linkedin.com/in/vinncent-alexander-wong-493759213/" width='5%'marginTop='50px' marginBottom='50px'><Image alt="Github" src="/linkedin.png"></Image></Link>
                 </Flex>
             </Flex>
         </Box>, document.getElementById("footer") as HTMLElement)
