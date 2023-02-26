@@ -68,7 +68,7 @@ const Forms = ({type}: FormsProps) => {
     const submitRegisterHandler = async (e: FormEvent<HTMLButtonElement>) => {
         e.preventDefault();
         if(!validator.isEmail(email) || password.length < 6 || username.length < 6){
-            alert("data yang diinputkan tidak valid, panjang username dan password harus >= 6");
+            alert("data yang diinputkan tidak valid, email harus valid serta panjang username dan password harus >= 6");
             return;
         }
         try{
