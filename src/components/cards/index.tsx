@@ -7,6 +7,7 @@ import api from "../../api/api";
 import getUser from "../../util/user";
 import axios from 'axios';
 import { Response } from "../../type/navbar";
+import { fontFamily } from "../../styling/GlobalStyling";
 
 const Cards = ({data, setClick}: CardsProps) => {
 
@@ -95,7 +96,9 @@ const Cards = ({data, setClick}: CardsProps) => {
                                 <Avatar name={d.username} src='https://brokenlink.com' />
                                 <Box>
                                     <Heading size='sm'>{d.username}</Heading>
-                                    <Text>Creator, Chakra UI</Text>
+                                    <Text
+                                    fontFamily={fontFamily}
+                                    fontWeight='bold'>{d.produks[0].namaProduk}</Text>
                                 </Box>
                             </Flex>
                         </Flex>
